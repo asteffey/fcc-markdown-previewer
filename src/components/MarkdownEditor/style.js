@@ -3,7 +3,9 @@ import { Header, H2 as BootStrapH2 } from '@bootstrap-styled/v4';
 
 export { Header };
 
-export const H2 = styled(BootStrapH2)`
+export const H2 = styled(BootStrapH2).withConfig({
+    shouldForwardProp: (prop) => !['textAlign'].includes(prop)
+})`
     text-align: ${({ textAlign }) => textAlign || 'inherit'};
 `;
 
