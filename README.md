@@ -1,4 +1,4 @@
-## Front End Libraries Projects - Build a Pomodoro Clock
+## Front End Libraries Projects - Build a Markdown Previewer
 
 [![Build Status](https://travis-ci.org/asteffey/fcc-markdown-previewer.svg?branch=master)](https://travis-ci.org/asteffey/fcc-markdown-previewer)
 
